@@ -37,7 +37,7 @@ export function Sidebar() {
             availableAt={new Date(availableAt)}
             type={lessonType}
             title={title}
-            slug={title}
+            slug={slug}
             key={id}
           />
         ))}

@@ -51,3 +51,9 @@
 
     function App() {
       const { data } = useQuery(GET_LESSONS_QUERY)
+
+
+  // Desafios: 
+    - Deixar layout responsivo e aplicar o mobile
+    - Quando o video estiver vazio mostrar alguma mensagem na tela estimulando ao cliente acessar uma nova aula
+    - Estilizar pagina de carregamento na requisição das informações do componente de Video pelo slug
